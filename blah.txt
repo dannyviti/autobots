@@ -1,0 +1,175 @@
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Linux version 3.4.83-70.111.amzn1.x86_64 (mockbuild@gobi-build-31003) (gcc version 4.6.3 20120306 (Red Hat 4.6.3-2) (GCC) ) #1 SMP Fri Mar 14 08:05:54 UTC 2014
+[    0.000000] Command line: root=LABEL=/ console=hvc0 LANG=en_US.UTF-8 KEYTABLE=us
+[    0.000000] Marking TSC unstable due to Xen domain
+[    0.000000] ACPI in unprivileged domain disabled
+[    0.000000] Released 0 pages of unused memory
+[    0.000000] Set 0 page(s) to 1-1 mapping
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000]  Xen: 0000000000000000 - 00000000000a0000 (usable)
+[    0.000000]  Xen: 00000000000a0000 - 0000000000100000 (reserved)
+[    0.000000]  Xen: 0000000000100000 - 0000000026f00000 (usable)
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] DMI not present or invalid.
+[    0.000000] e820 update range: 0000000000000000 - 0000000000010000 (usable) ==> (reserved)
+[    0.000000] e820 remove range: 00000000000a0000 - 0000000000100000 (usable)
+[    0.000000] No AGP bridge found
+[    0.000000] last_pfn = 0x26f00 max_arch_pfn = 0x400000000
+[    0.000000] initial memory mapped : 0 - 033a1000
+[    0.000000] Base memory trampoline at [ffff88000009b000] 9b000 size 20480
+[    0.000000] init_memory_mapping: 0000000000000000-0000000026f00000
+[    0.000000]  0000000000 - 0026f00000 page 4k
+[    0.000000] kernel direct mapping tables up to 0x26efffff @ [mem 0x01b6f000-0x01ca8fff]
+[    0.000000] xen: setting RW the range 1c8b000 - 1ca9000
+[    0.000000] RAMDISK: 01ca9000 - 033a1000
+[    0.000000] NUMA turned off
+[    0.000000] Faking a node at 0000000000000000-0000000026f00000
+[    0.000000] Initmem setup node 0 0000000000000000-0000000026f00000
+[    0.000000]   NODE_DATA [mem 0x266fc000-0x266fffff]
+[    0.000000] Zone PFN ranges:
+[    0.000000]   DMA      0x00000010 -> 0x00001000
+[    0.000000]   DMA32    0x00001000 -> 0x00100000
+[    0.000000]   Normal   empty
+[    0.000000] Movable zone start PFN for each node
+[    0.000000] Early memory PFN ranges
+[    0.000000]     0: 0x00000010 -> 0x000000a0
+[    0.000000]     0: 0x00000100 -> 0x00026f00
+[    0.000000] On node 0 totalpages: 159376
+[    0.000000]   DMA zone: 64 pages used for memmap
+[    0.000000]   DMA zone: 5 pages reserved
+[    0.000000]   DMA zone: 3915 pages, LIFO batch:0
+[    0.000000]   DMA32 zone: 2428 pages used for memmap
+[    0.000000]   DMA32 zone: 152964 pages, LIFO batch:31
+[    0.000000] Zone PFN ranges:
+[    0.000000]   DMA      0x00000010 -> 0x00001000
+[    0.000000]   DMA32    0x00001000 -> 0x00100000
+[    0.000000]   Normal   empty
+[    0.000000] Movable zone start PFN for each node
+[    0.000000] Early memory PFN ranges
+[    0.000000]     0: 0x00000010 -> 0x000000a0
+[    0.000000]     0: 0x00000100 -> 0x00026f00
+[    0.000000] On node 0 totalpages: 159376
+[    0.000000]   DMA zone: 64 pages used for memmap
+[    0.000000]   DMA zone: 5 pages reserved
+[    0.000000]   DMA zone: 3915 pages, LIFO batch:0
+[    0.000000]   DMA32 zone: 2428 pages used for memmap
+[    0.000000]   DMA32 zone: 152964 pages, LIFO batch:31
+[    0.000000] SMP: Allowing 1 CPUs, 0 hotplug CPUs
+[    0.000000] No local APIC present
+[    0.000000] APIC: disable apic facility
+[    0.000000] APIC: switched to apic NOOP
+[    0.000000] nr_irqs_gsi: 16
+[    0.000000] Allocating PCI resources starting at 26f00000 (gap: 26f00000:d9100000)
+[    0.000000] Booting paravirtualized kernel on Xen
+[    0.000000] Xen version: 3.4.3.amazon (preserve-AD)
+[    0.000000] setup_percpu: NR_CPUS:64 nr_cpumask_bits:64 nr_cpu_ids:1 nr_node_ids:1
+[    0.000000] PERCPU: Embedded 27 pages/cpu @ffff880026000000 s80640 r8192 d21760 u2097152
+[    0.000000] pcpu-alloc: s80640 r8192 d21760 u2097152 alloc=1*2097152
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 156879
+[    0.000000] Policy zone: DMA32
+[    0.000000] Kernel command line: root=LABEL=/ console=hvc0 LANG=en_US.UTF-8 KEYTABLE=us
+[    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] Checking aperture...
+[    0.000000] No AGP bridge found
+[    0.000000] Memory: 583628k/637952k available (4052k kernel code, 448k absent, 53876k reserved, 2740k data, 684k init)
+[    0.000000] SLUB: Genslabs=15, HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] NR_IRQS:4352 nr_irqs:256 16
+[    0.000000] Console: colour dummy device 80x25
+[    0.000000] console [tty0] enabled
+[    0.000000] console [hvc0] enabled
+[    0.000000] Xen: using vcpuop timer interface
+[    0.000000] installing Xen timer for CPU 0
+[    0.000000] Detected 1799.999 MHz processor.
+[    0.004000] Calibrating delay loop (skipped), value calculated using timer frequency.. 3599.99 BogoMIPS (lpj=7199996)
+[    0.004000] pid_max: default: 32768 minimum: 301
+[    0.004000] Security Framework initialized
+[    0.004000] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[    0.004000] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.004000] Mount-cache hash table entries: 256
+[    0.004000] Initializing cgroup subsys cpuacct
+[    0.004000] Initializing cgroup subsys devices
+[    0.004000] Initializing cgroup subsys freezer
+[    0.004000] Initializing cgroup subsys blkio
+[    0.004000] Initializing cgroup subsys perf_event
+[    0.004000] CPU: Physical Processor ID: 0
+[    0.004000] CPU: Processor Core ID: 0
+[    0.004000] SMP alternatives: switching to UP code
+[    0.036785] Freeing SMP alternatives: 16k freed
+[    0.036809] ftrace: allocating 15802 entries in 62 pages
+[    0.044092] cpu 0 spinlock event irq 17
+[    0.044129] Performance Events: unsupported p6 CPU model 45 no PMU driver, software events only.
+[    0.044310] Brought up 1 CPUs
+[    0.044505] devtmpfs: initialized
+[    0.046130] Grant tables using version 1 layout.
+[    0.046157] Grant table initialized
+[    0.046207] NET: Registered protocol family 16
+[    0.046689] PCI: setting up Xen PCI frontend stub
+[    0.046689] PCI: pci_cache_line_size set to 64 bytes
+[    0.050171] bio: create slab <bio-0> at 0
+[    0.050285] ACPI: Interpreter disabled.
+[    0.050354] xen/balloon: Initialising balloon driver.
+[    0.052082] xen-balloon: Initialising balloon driver.
+[    0.052197] vgaarb: loaded
+[    0.052366] PCI: System does not support PCI
+[    0.052377] PCI: System does not support PCI
+[    0.052617] NetLabel: Initializing
+[    0.052624] NetLabel:  domain hash size = 128
+[    0.052629] NetLabel:  protocols = UNLABELED CIPSOv4
+[    0.052644] NetLabel:  unlabeled traffic allowed by default
+[    0.052660] Switching to clocksource xen
+[    0.059620] pnp: PnP ACPI: disabled
+[    0.063937] NET: Registered protocol family 2
+[    0.064203] IP route cache hash table entries: 65536 (order: 7, 524288 bytes)
+[    0.065642] TCP established hash table entries: 262144 (order: 10, 4194304 bytes)
+[    0.066733] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+[    0.066917] TCP: Hash tables configured (established 262144 bind 65536)
+[    0.066925] TCP: reno registered
+[    0.066944] UDP hash table entries: 1024 (order: 3, 32768 bytes)
+[    0.066969] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+[    0.067040] NET: Registered protocol family 1
+[    0.067056] PCI: CLS 0 bytes, default 64
+[    0.067099] Unpacking initramfs...
+[    0.094499] Freeing initrd memory: 23520k freed
+[    0.103546] platform rtc_cmos: registered platform RTC device (no PNP device found)
+[    0.104253] audit: initializing netlink socket (disabled)
+[    0.104277] type=2000 audit(1400668336.108:1): initialized
+[    0.120463] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+[    0.124313] VFS: Disk quotas dquot_6.5.2
+[    0.124402] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.124555] msgmni has been set to 1185
+[    0.124891] alg: No test for stdrng (krng)
+[    0.125015] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 254)
+[    0.125047] io scheduler noop registered (default)
+[    0.125872] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+[    0.127731] loop: module loaded
+[    0.131966] Initialising Xen virtual ethernet driver.
+[    0.134394] i8042: PNP: No PS/2 controller found. Probing ports directly.
+[    1.140648] mousedev: PS/2 mouse device common for all mice
+[    1.140981] TCP: cubic registered
+[    1.140992] NET: Registered protocol family 17
+[    1.141013] Registering the dns_resolver key type
+[    1.141265] registered taskstats version 1
+[    1.157780] blkfront: xvda1: barrier or flush: disabled; persistent grants: disabled; indirect descriptors: disabled;
+[    1.240613] Freeing unused kernel memory: 684k freed
+[    1.240890] Write protecting the kernel read-only data: 6144k
+[    1.243957] Freeing unused kernel memory: 24k freed
+[    1.244200] Freeing unused kernel memory: 408k freed
+[    1.295333] device-mapper: uevent: version 1.0.3
+[    1.295529] device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+[    1.309499] udevd[391]: starting version 173
+[    1.363502] alg: No test for __gcm-aes-aesni (__driver-gcm-aes-aesni)
+[    1.514690] EXT4-fs (xvda1): mounted filesystem with ordered data mode. Opts: (null)
+[    1.548662] dracut: Remounting /dev/disk/by-label/\x2f with -o noatime,ro
+[    1.557234] EXT4-fs (xvda1): mounted filesystem with ordered data mode. Opts: (null)
+[    1.587631] dracut: Mounted root filesystem /dev/xvda1
+[    1.637991] dracut: Switching root
+[    3.800050] udevd[649]: starting version 173
+[    4.221477] microcode: CPU0 sig=0x206d7, pf=0x1, revision=0x70b
+[    4.254392] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+[    5.016355] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+[    5.079813] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[    5.120475] SCSI subsystem initialized
+[    5.384190] EXT4-fs (xvda1): re-mounted. Opts: (null)

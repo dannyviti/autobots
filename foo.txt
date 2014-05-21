@@ -1,0 +1,2 @@
+May 21 10:32:33 ip-10-184-28-148 sendmail[1190]: starting daemon (8.14.4): SMTP+queueing@01:00:00
+May 21 10:32:33 ip-10-184-28-148 sm-msp-queue[1198]: starting daemon (8.14.4): queueing@01:00:00
